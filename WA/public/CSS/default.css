@@ -1,0 +1,70 @@
+
+#header {
+    padding: 20px;
+    background: black;
+    color: white;
+}
+#content {
+    background: #fff;
+    padding: 50px;
+}
+#footer{
+    background: rgba(5, 4, 27, 0.9);
+    padding: 20px;
+    color: white;
+}
+.social-icon{
+    color: white;
+    font-size:20px;
+}
+.containerr{
+    padding-top:185px;
+    padding-bottom: 180px;
+}
+.navbar{
+    padding: 24px 0;
+    border-bottom: none !important;
+    transition: all 0.5s ease-in-out;
+    background-color: rgba(5, 4, 27, 0.8);
+}
+
+.navbar ul li a{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight:900;
+    letter-spacing: 1px;
+    font-size: 13px;
+    transition: all 0.5s ease-in-out;
+    background: transparent !important;
+    
+}
+
+.navbar ul li a:hover,.navbar ul li a:focus {
+    color: deepskyblue !important;
+    background: none !important;
+}
+
+.navbar-toggle{
+    border: 1px solid white !important;
+    color: white  !important;
+    transition: all 0.5s ease-in;
+}
+
+.icon-bar{
+    color:white  !important;
+    background-color: white !important;
+    
+}
+.navbar toggle:hover{
+    background-color: deepskyblue !important;
+}
+.navbar-inverse .navbar-collapse{
+    background-color: transparent !important;
+}
+.secondary{
+    background:rgba(5, 4, 53, 0.2);
+}
+.company{
+    border: 1px solid white;
+    border-radius: 50px;
+}

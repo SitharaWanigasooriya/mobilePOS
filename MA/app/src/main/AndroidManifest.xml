@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sitharawanigasooriy.ma">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocas" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+       <activity android:name=".FirstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".History" />
+        <activity android:name=".Selling">
+            <intent-filter>
+                <action android:name="com.example.sitharawanigasooriy.ma.Selling" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="com.example.sitharawanigasooriy.ma.Home" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Order" />
+        <activity android:name=".SignUp">
+            <intent-filter>
+                <action android:name="com.example.sitharawanigasooriy.ma.SignUp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="com.example.sitharawanigasooriy.ma.Login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyInventory" />
+        <activity android:name=".Profile">
+            <intent-filter>
+                <action android:name="com.example.sitharawanigasooriy.ma.Profile" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QRBarcodeScanner">
+            <intent-filter>
+                <action android:name="com.example.sitharawanigasooriy.ma.QRBarcodeScanner" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="com.example.sitharawanigasooriy.ma.Welcome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Inventory" />
+        <activity android:name=".SellingSearch" />
+        <activity android:name=".PlaceOrder" />
+        <activity android:name=".ViewOrder" />
+        <activity android:name=".Information"></activity>
+
+    </application>
+
+</manifest>

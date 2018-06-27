@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inven"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:visibility="visible"
+    tools:context="com.example.sitharawanigasooriy.ma.MyInventory">
+
+    <TextView
+        android:id="@+id/signupTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:padding="2dp"
+        android:text="@string/MyInventory_TextView"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/productCodeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_code_black_24dp"
+        android:ems="10"
+        android:hint="@string/MyInventoryProdcutCodeEditText"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textColorLink="@android:color/white"
+        android:textCursorDrawable="@android:color/white" />
+
+    <View
+        android:id="@+id/signupUsernameView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"></View>
+
+    <EditText
+        android:id="@+id/productnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_assignment_black_24dp"
+        android:ems="10"
+        android:hint="@string/MyInventoryProductNameEditText"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" />
+
+    <View
+        android:id="@+id/signupcompanyView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"></View>
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_confirmation_number_black_24dp"
+        android:ems="10"
+        android:hint="@string/MyInventoryQuantityEditText"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" />
+
+    <View
+        android:id="@+id/signupEmailView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"></View>
+
+    <Button
+        android:id="@+id/addButton"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_button_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="6dp"
+        android:text="@string/MyInventory_button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+</LinearLayout>
+
+
+

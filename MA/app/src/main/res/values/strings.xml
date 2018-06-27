@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">MA</string>
+    <string name="mobile_pos_firstpage_texteview">MOBILE POS </string>
+    <string name="login_firstpage">Login</string>
+    <string name="signup_firstpage">Signup</string>
+
+    <string name="login_textView">Login</string>
+    <string name="user_name_loginEditTextValue">user name</string>
+    <string name="email_loginEditTextView">email</string>
+    <string name="password_loginEditText">password</string>
+    <string name="remember_me_loginCheckBox">Remember me</string>
+    <string name="log_in_button">Login</string>
+    <string name="forget_your_password_loginTextView">forget your password?</string>
+
+    <string name="signup_TextView">SignUp</string>
+    <string name="user_name_signupEditText">user name</string>
+    <string name="company_name_signupEditText">company name</string>
+    <string name="email_signupEditText">email</string>
+    <string name="password_signupEditText">password</string>
+    <string name="confirm_password_signupEditText">confirm password</string>
+    <string name="signup_button">SignUp</string>
+
+    <string name="home_add_to_cart">Choose products</string>
+    <string name="home_sell_products">Select to Sell</string>
+    <string name="home_inventory">Inventory</string>
+    <string name="home_inventory_detail">View products</string>
+    <string name="home_my_path">My Items</string>
+    <string name="home_my_path_details">Received Items</string>
+    <string name="home_history">History</string>
+    <string name="home_history_details">View Logs</string>
+
+    <string name="home_place_order">Place Order</string>
+    <string name="home_order">Order</string>
+
+
+    <string name="welcome_welcomeTextView">Welcome</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="selling_product_code">item code/item name</string>
+    <string name="selling_quantity">Qty</string>
+    <string name="selling_enter">Enter</string>
+    <string name="selling_delete">Delete</string>
+    <string name="selling_barcode">Barcode</string>
+    <string name="selling_search">Search</string>
+    <string name="selling_Sub_totalTxt">Sub Total</string>
+    <string name="selling_totalhint">0.00</string>
+    <string name="sellingDiscountTxt">Discount</string>
+    <string name="sellingAmountDiscount">0%</string>
+    <string name="selling_TaxTxt">Tax</string>
+    <string name="selling_nothingTxt"> Net Total</string>
+    <string name="selling_recievedTxt">Received</string>
+    <string name="selling_changeTxt">Change</string>
+    <string name="selling_cash">Cash</string>
+
+    <string name="nsvigsto_home">Home</string>
+    <string name="nsvigsto_profile">Profile</string>
+    <string name="nsvigsto_info">Info</string>
+    <string name="nsvigsto_Logout">LogOut</string>
+
+    <string name="profile_Name">Sithara Wanigasooriya</string>
+    <string name="Name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="NameHint">name</string>
+    <string name="emailHint">e-mail</string>
+    <string name="mobileHint">mobile</string>
+    <string name="passwordHint">password</string>
+    <string name="change">Change</string>
+    <string name="save">Save</string>
+
+
+    <string name="PlaceOrderLabel">Place Order</string>
+    <string name="identifyItemByTyping">Product code</string>
+    <string name="identifyItemByName">Product Name</string>
+    <string name="identifyItemBySearching">Search</string>
+    <string name="placeOrder">Order</string>
+
+    <string name="order_place_order">Place Order</string>
+    <string name="order_place_order_quot">Select to Sell</string>
+    <string name="order_view_order">View Orders</string>
+    <string name="order_view_order_quot">View products</string>
+
+    <string name="placeOrder_button">Place Order</string>
+    <string name="placeOrder_TextView">Order</string>
+
+    <string name="netTransaction">Net Transaction</string>
+    <string name="netMonthlyTransaction">Monthly Transaction</string>
+
+    <string name="MyInventory_TextView">My Inventory</string>
+    <string name="MyInventoryProdcutCodeEditText">Product code</string>
+    <string name="MyInventoryProductNameEditText">Product name</string>
+    <string name="MyInventoryQuantityEditText">Quantity</string>
+    <string name="MyInventory_button">Add</string>
+
+    <string name="Customer">Customer</string>
+
+
+</resources>
+

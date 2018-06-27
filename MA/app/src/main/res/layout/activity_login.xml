@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:visibility="visible"
+    tools:context="com.example.sitharawanigasooriy.ma.Login">
+
+    <TextView
+        android:id="@+id/LoginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/login_textView"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usernameLoginEdittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:ems="10"
+        android:hint="@string/user_name_loginEditTextValue"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/background_light" />
+
+    <View
+        android:id="@+id/usernameLoginView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"></View>
+
+
+    <EditText
+        android:id="@+id/passwordLoginEditTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_lock_black_24dp"
+        android:ems="10"
+        android:hint="@string/password_loginEditText"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/background_light" />
+
+    <View
+        android:id="@+id/passwordLoginView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"></View>
+
+
+    <CheckBox
+        android:id="@+id/checkBoxlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:buttonTint="@android:color/white"
+        android:text="@string/remember_me_loginCheckBox"
+        android:textColor="@android:color/white"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/login_button_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="6dp"
+        android:text="@string/log_in_button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fogetpasswordLoginTextView"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:text="@string/forget_your_password_loginTextView"
+        android:textColor="#fff" />
+</LinearLayout>

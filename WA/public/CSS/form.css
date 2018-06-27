@@ -1,0 +1,234 @@
+.begin{
+    padding-top:185px;
+    padding-bottom: 180px;
+    /*margin: 0 0 0 0;*/
+}
+body{
+    background: url("../images/home.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input{
+    width: 300px;
+    outline: none;
+    padding: 6px 11px;
+    border:2px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: tahomaa;
+    background: #fff;
+    display: block;
+    margin: 6px auto;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28px;
+    
+}
+
+#button{
+    background: #13b1ca;
+    color: #fff;
+    border-radius: 50px;
+    font-family: tahomaa;
+    font-weight: 700;
+    border:2px solid transparent;
+    transition: all 0.5s linear;
+}
+.contain_form{
+    width: 30%;
+    height: 400px;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 5px 4px 43px #000;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+form{
+    margin: 30px auto;
+    text-align: center;
+    
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+a{
+    color: #fff;
+}
+img{
+    display: block;
+    margin: -75px auto 0 auto;
+}
+.contain_form1{
+    width: 30%;
+    height: 750px;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 5px 4px 43px #000;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.begin1{
+    padding-top:185px;
+    padding-bottom: 600px;
+    /*margin: 0 0 0 0;*/
+}
+
+.contain_form2{
+    width: 30%;
+    height: 750px;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 5px 4px 43px #000;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+.begin2{
+    padding-top:185px;
+    padding-bottom: 600px;
+    /*margin: 0 0 0 0;*/
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 450px;
+  background:wheat;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+
+thead {
+  background: #395870;
+  color: #fff;
+}
+
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+
+#options{
+    width: 300px;
+    outline: none;
+    padding: 6px 11px;
+    border:2px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: tahomaa;
+    background: #fff;
+    display: block;
+    margin: 6px auto;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28px;
+    
+}
+th:first-child {
+  text-align: left;
+}
+th:second-child{
+    text-align: left;
+}
+.contain_form4{
+    width: 30%;
+    height: 500px;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 5px 4px 43px #000;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+.begin4{
+    padding-top:185px;
+    padding-bottom: 600px;
+    /*margin: 0 0 0 0;*/
+}
+th{
+    text-align: left;
+}
+#supervise{
+    background: url("../images/superviseHome.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#personaltable{
+    margin-left: 200px;
+}
+.begin5{
+    padding-top:185px;
+    padding-bottom: 300px;
+    /*margin: 0 0 0 0;*/
+}
+#DataEntry{
+    background: url("../images/pos.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contain_form6{
+    width: 30%;
+    height: 1000px;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 5px 4px 43px #000;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+.contain_form7{
+    width: 30%;
+    height: 600px;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 5px 4px 43px #000;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.contain_form8{
+    width: 30%;
+    height: 1100px;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 5px 4px 43px #000;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.begin8{
+    padding-top:1000px;
+    padding-bottom: 1px;
+    /*margin: 0 0 0 0;*/
+}
+.Heading{
+    text-align: center;
+}

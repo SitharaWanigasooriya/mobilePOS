@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sitharawanigasooriy.ma.ViewOrder">
+
+    <Button
+        android:id="@+id/viewOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.codecrafters.tableview.TableView
+                android:id="@+id/viewOrdertable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </de.codecrafters.tableview.TableView>
+        </RelativeLayout>
+
+
+</LinearLayout>

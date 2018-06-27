@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dataentryhome"
+    android:orientation="vertical"
+    tools:context="com.example.sitharawanigasooriy.ma.FirstPage">
+
+    <TextView
+        android:id="@+id/MobilePOSTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/mobile_pos_firstpage_texteview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/FirstPageLOGINButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/first_page_green_button"
+        android:clickable="true"
+        android:text="@string/login_firstpage" />
+
+    <Button
+        android:id="@+id/FirstpageSIGNUPButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/first_page_green_button"
+        android:clickable="true"
+        android:text="@string/signup_firstpage" />
+
+</LinearLayout>
